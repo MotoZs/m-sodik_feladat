@@ -1,0 +1,62 @@
+/* 1. */
+.tarolo{
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+}
+
+.lila{background-color: purple;}
+.zold{background-color: green;}
+.sarga{background-color: yellow;}
+
+.elem{
+    width: 100px;
+    height: 100px;
+}
+
+.tarolo1{
+    align-items: center;
+    justify-content:center;
+}
+
+.zold1,.sarga1{
+    display: none;
+}
+
+/* 2.*/
+.tarolo2{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.tarolo2>li{list-style: none; margin-right: 5px;}
+
+
+/* 3. */
+.tarolo3{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tarolo3>li{list-style: none}
+
+
+/* 4. */
+.tarolo4{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.tarolo4>li{list-style: none; margin-left: 5px;}
